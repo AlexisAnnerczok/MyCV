@@ -1,0 +1,86 @@
+body {
+  background-color: #fff5d7;
+}
+
+.prenom{  
+  color: red;
+  text-shadow: 1px 1px 2px black;
+  margin-top: -15px;
+  margin-right: 10px;
+  display: flex;
+  justify-content:right;
+}
+
+.adresse{
+  color: black;
+  text-shadow: 1px 1px 2px black;
+  margin-top: -15px;
+  margin-right: 10px;
+  font-style: italic;
+  display: flex;
+  justify-content:right;
+}
+
+.prenom .adresse p{
+  font-size: 20px;
+}
+
+.img {
+  width: 150px; 
+  height: 200px; 
+  overflow: hidden;
+  border: 2px solid black;
+  margin-top: -65px;
+  margin-left: 5px;
+  }
+
+.img img{
+  margin: -0px 0px 0px -25px;
+}
+
+.liens{
+  height: 1000px; 
+  margin-top: 100px;
+  margin-right: 1200px;
+  margin-left: 40px;
+  border: 1px solid black;
+}
+
+.competences{
+  background-color:#80acf2;
+  color: white  ;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  margin-top: -1002px;
+  margin-left: 300px;
+  margin-right: 40px;
+  text-align: center;
+}
+.experiences{
+  height: 534px;
+  background-color:#bef17f;
+  color: white  ;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  margin-top: 30px;
+  margin-left: 300px;
+  margin-right: 40px;
+  text-align: center;
+}
+.competences p{
+  font-size: 15px;
+}
+.competences li{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.experiences p{
+  font-size: 15px;
+}
+.experiences li{
+  font-size: 20px;
+  font-weight: bold;
+}
