@@ -1,0 +1,117 @@
+body{
+  background-color: black;
+}
+video{
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.prenom{  
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  margin-top: -40px;
+  margin-left: 10px;
+  display: flex;
+  justify-content:left;
+}
+
+.adresse{
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  margin-top: -50px;
+  margin-left: 220px;
+  font-style: italic;
+  display: flex;
+  justify-content:left;
+}
+.Portfolio{
+  text-shadow: 2px 2px 2px black;
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  margin-left: 250px;
+}
+
+.prenom p{
+  font-size: 40px;
+}
+.adresse p{
+  font-size: 20px;
+}
+.img {
+  border-radius: 10px;
+  width: 150px; 
+  height: 200px; 
+  overflow: hidden;
+  border: 2px solid black;
+  margin-top: -160px;
+  margin-left: 40px;
+  }
+
+.img img{
+  margin: -0px 0px 0px -25px;
+}
+
+.liens{
+  display: flex;
+  justify-content: left;
+  border-radius: 20px;
+  height: 100px; 
+  width:95% ;
+  margin-top: 100px;
+  margin-right: 1200px;
+  margin-left: 40px;
+  color: white;
+}
+
+a,a:visited,a:link{
+  color: white;
+}
+
+.competences{
+  border-radius: 20px;
+  background-color:black;
+  color: white  ;
+  display: flex;
+  border: 1px solid black;
+  margin-top: 50px;
+  margin-right: 970px;
+  margin-left: 50px;
+  justify-content: left;
+  text-align: center;
+}
+.experiences{
+  border-radius: 20px;
+  height: 515px;
+  background-color:black;
+  color: white  ;
+  display: flex;
+  border: 1px solid black;
+  margin-top: -515px;
+  margin-left: 550px;
+  margin-right: 100px;  
+  justify-content: center;
+  text-align:center;
+}
+.competences p{
+  font-size: 15px;
+}
+.competences li{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.experiences p{
+  font-size: 15px;
+}
+.experiences li{
+  font-size: 20px;
+  font-weight: bold;
+}
